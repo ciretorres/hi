@@ -1,23 +1,25 @@
+// toDisplayNone
 var index = document.querySelector('.index');
-var cms = document.querySelector('.cms');
-var smo = document.querySelector('.smo');
-var wd = document.querySelector('.wd');
+// toDisplayBlock
+var web = document.querySelector('.web');
+var soc = document.querySelector('.social');
+var viz = document.querySelector('.visualization');
+// addEventListener
+var bik = document.querySelector('.bibiki');
+var des = document.querySelector('.design');
+var dev = document.querySelector('.development');
+var mkt = document.querySelector('.marketing');
 
-var wordpress = document.querySelector('.wordpress');
-var marketing = document.querySelector('.marketing');
-var development = document.querySelector('.development');
-
-wordpress.addEventListener("click", function(){
+// toDisplayNoneBlock
+des.addEventListener("click", function(){ //--- index/viz
 	index.style.display = 'none';
-	cms.style.display = 'block';
+	viz.style.display = 'block';	
 })
-
-marketing.addEventListener("click", function(){	
+dev.addEventListener("click", function(){ //--- index/web
+	index.style.display = 'none';
+	web.style.display = 'block';
+})
+mkt.addEventListener("click", function(){ //--- index/soc
 	index.style.display = 'none';	
-	smo.style.display = 'block';	
-})
-
-development.addEventListener("click", function(){
-	index.style.display = 'none';
-	wd.style.display = 'block';	
+	soc.style.display = 'block';	
 })
