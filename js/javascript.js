@@ -1,9 +1,9 @@
 // toDisplayNone
 var index = document.querySelector('.index');
 // toDisplayBlock
+var viz = document.querySelector('.visualization');
 var web = document.querySelector('.web');
 var soc = document.querySelector('.social');
-var viz = document.querySelector('.visualization');
 // addEventListener
 var bik = document.querySelector('.bibiki');
 var des = document.querySelector('.design');

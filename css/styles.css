@@ -84,7 +84,7 @@ body a.social {
 body a.project-color {
   color: #fcffd0;
 }
-body p.web, p.social, p.visualization{
+body p.visualization, p.web, p.social{
   display: none;
 }
 a.circle{  
